@@ -1,0 +1,112 @@
+@media (min-width: 988px) {
+  .container {
+    grid-template-areas:
+      "iphone iphone learn-more learn-more "
+      "keyboard imac imac icloud "
+      "games ipad ipad icloud "
+      "twitter pupular tv tv ";
+  }
+
+  /* ======== learn more ======== */
+
+  .learn-more {
+    display: flex;
+    align-items: center;
+  }
+
+  .learn-more .contint {
+    padding: 30px 60px;
+  }
+  /* ======== iphone ======== */
+
+  .iphone .img-iphone img {
+    padding-top: 40px;
+    width: 70%;
+    transform: translateX(-10%);
+  }
+
+  .iphone .text-iphone {
+    flex-basis: 50%;
+    padding: 60px;
+  }
+
+  /* ======== keyboard ======== */
+
+  .keyboard {
+    padding: 50px;
+  }
+
+  .keyboard h2 {
+    margin-block: 10px;
+  }
+
+  /* ======== imac ======== */
+
+  .imac .text-img {
+    padding: 30px 80px;
+  }
+
+  .imac .text-imac {
+  }
+
+  .imac .text-imac p {
+    line-height: 1.5;
+    padding: 10px 40px 10px 0;
+    font-size: 18px;
+  }
+
+  /* ======== icloud ======== */
+
+  .icloud {
+    align-content: center;
+  }
+
+  .icloud .circle-icloud {
+    height: 400px;
+    width: 100%;
+  }
+
+  .icloud .text-icloud h2 {
+    margin-block: 10px;
+  }
+  .icloud .text-icloud p {
+    margin: 20px 0;
+  }
+
+  /* ======== pupular ======== */
+  .pupular {
+    padding-block: 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+
+    padding-block: 0;
+  }
+
+  .pupular h2 {
+    padding: 10px 60px;
+  }
+  /* ======== tweter  ======== */
+
+  .twitter .circle {
+    margin: 0 auto;
+  }
+
+  /* ======== tv ======== */
+
+  .tv .img-tv {
+    flex-basis: 60%;
+  }
+
+  .tv .img-tv img {
+    width: 60%;
+    transform: translateX(25%);
+  }
+
+  .tv .text-tv {
+    padding: 15px;
+    color: #ffffff;
+    flex-basis: 40%;
+  }
+}
